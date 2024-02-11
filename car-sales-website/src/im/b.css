@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link{
+    color: red;
+    background-attachment: fixed;
+    background-color:aliceblue;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.nav-link::hover{
+    color:cadetblue;
+    background-color:aqua;
+}
+.nav-link:active{
+    color:whitesmoke;
+    background-color:palegoldenrod;
+}
+.wrapper{
+    margin:50px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 40px 2px rgba(37, 73, 214, 0.18);
+}
+.feature-box{
+    padding: 30px;
+
+}
+.container{
+    display:block;
+    background-color:azure;
+    color:darkgrey;
+}
+
+
+
+.btn-One:hover{
+    color:  cyan    ;
+}
+.btn-Two:hover{
+    color:cyan;
+}
+#i4
+{
+    text-decoration: aqua;
+    
+    text-decoration-color: chartreuse;
+    background-image: url(bg1.jpeg);
+    background-repeat: no-repeat;
+    background-size: auto;
+ lighting-color: bisque;
+}
+#i2
+{
+  padding-top: 2%;
+  padding-bottom: 10%;
+  
+}
+#i5
+{
+    text-decoration-color:darkgrey;
+   background-color:aqua ;
+
+background-image: url("bgd1.png");
+  background-size:cover;
+background-repeat: no-repeat;
+
+
+   padding-top: 10%;
+}
+#car1
+{
+    background-image: url("car.jpeg");
+}
+#t1
+{
+    
+    text-align: center;
+    text-emphasis-color: orange;;
+    
+
+}
+#im
+{
+   background-size: cover;
+}
+#i9
+{
+    text-decoration: aqua;
+    
+    text-decoration-color: chartreuse;
+    background-image: url("im2.jpeg");
+    background-repeat: no-repeat;
+    background-size: auto;
+ lighting-color: bisque;
+}
+
+#box
+{
+    background-image: url("im2n.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

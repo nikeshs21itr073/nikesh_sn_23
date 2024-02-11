@@ -1,0 +1,78 @@
+/* booking.css */
+
+.booking-form-container {
+  background: #fde3a7; /* Vibrant background color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.booking-form-container h2 {
+  font-size: 24px;
+  color: #ff5722; /* Vibrant heading color */
+}
+
+.content {
+  text-align: center;
+  max-width: 400px;
+  padding: 20px;
+   /* Vibrant border color */
+  border-radius: 10px;
+  background: #fff; /* White background for content */
+}
+
+.input-field {
+  margin: 15px 0;
+}
+
+.input-field label {
+  display: block;
+  font-weight: bold;
+  color: #ff5722; /* Vibrant label color */
+}
+
+.input-field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  color: #e53935; /* Error text color */
+  font-size: 14px;
+}
+
+button[type="submit"] {
+  background: #ff5722; /* Vibrant button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background: #e64a19; /* Slightly darker on hover */
+}
+
+
+/* Toast styles */
+.Toastify__toast {
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.Toastify__toast--success {
+  background-color: #43a047; /* Success toast background color */
+  color: #fff;
+}
+
+.Toastify__toast--error {
+  background-color: #e53935; /* Error toast background color */
+  color: #fff;
+}

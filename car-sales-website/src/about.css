@@ -1,0 +1,54 @@
+/* AboutUs.css */
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  
+  h2
+  {
+    text-align: center;
+  }
+  
+  .about-us-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about-us-container p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #555;
+  }
+  
+  /* Additional styles and colors can be customized to match your website's branding. */
+  
+  /* about.css */
+
+/* Add this CSS rule to set the background color to black */
+.about-page-bg {
+    background-color: black;
+ /* Add this to ensure text is visible on the black background */
+  }
+
+  
+  /* Your existing CSS styles for other elements can follow */
+  .about-us-container {
+    /* Your existing styles for the container */
+  }
+  
+  .about-us-heading {
+    /* Your existing styles for the heading */
+  }
+  
+  .about-us-content {
+    /* Your existing styles for the content */
+  }
+  

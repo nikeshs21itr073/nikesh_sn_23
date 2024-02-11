@@ -1,0 +1,156 @@
+
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the overall page layout */
+.home-page {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(45deg,, #ffcc00);
+  background-size: 200% 200%;
+  animation: gradient-animation 10s infinite;
+  color: #333;
+  overflow: hidden;
+}
+.i3
+{
+  text-decoration-color:blueviolet;
+}
+/* Add animation for the background gradient */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Style the navigation bar */
+.nav-bar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.nav-bar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Style the image slider */
+.image-slider {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style the featured cars section */
+.featured-cars {
+  background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white background */
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.featured-cars h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.car {
+  width: calc(50% - 10px);
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.car:hover {
+  transform: scale(1.02);
+}
+
+.car img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.car h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.car p {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
+
+/* Style the "About Us" section */
+.about-us {
+  background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white background */
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.about-us h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Style the footer */
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+}
+
+.footer p {
+  margin: 0;
+}
+#i10{
+  background-color:blue;
+  width:25%;
+}
+/* Additional styling for a vibrant and dynamic look */
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #ff0066; /* Vibrant pink color on hover */
+}
+
+/* Customize other elements as needed */

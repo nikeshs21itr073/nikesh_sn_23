@@ -1,0 +1,46 @@
+.about-page-bg {
+    background-image: url(https://example.com/images/about-page-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .about-us-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  h2{
+    color: olive;
+  }
+  #i3
+  {
+    background-color:gainsboro;
+    
+  }
+  .about-us-heading {
+    text-align: center;
+  }
+  
+  .about-us-content {
+    font-size: 16px;
+    line-height: 1.5;
+    color:#333;
+  }
+  
+  .about-us-content p {
+    margin-bottom: 20px;
+  }
+  
+  .about-us-content strong {
+    color: #000;
+  }
+  
+  .about-us-content a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .about-us-content a:hover {
+    text-decoration: underline;
+  }

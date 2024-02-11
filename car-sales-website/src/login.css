@@ -1,0 +1,85 @@
+/* Sigg.css */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ff8c66; /* Vibrant background color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f9a099; /* Lighter background for shapes */
+    clip-path: polygon(100% 0, 100% 0%, 0 100%);
+  }
+  
+  .shape {
+    width: 100%;
+    flex: 1;
+    background-color: #ff5722; /* Vibrant shape color */
+  }
+  
+  .auth-card {
+    background-color: #fff; /* White background for the card */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .auth-card h1 {
+    color: #ff5722; /* Vibrant heading color */
+  }
+  
+  .input-field {
+    margin: 20px 0;
+  }
+  
+  .input-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .action button {
+    background-color: #ff5722; /* Vibrant button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .action button:hover {
+    background-color: #e64a19; /* Slightly darker on hover */
+  }
+  
+  .action p {
+    margin-top: 10px;
+  }
+  
+  /* Toast styles */
+  .Toastify__toast {
+    border-radius: 5px;
+  }
+  
+  .Toastify__toast--success {
+    background-color: #43a047; /* Success toast background color */
+    color: #fff;
+  }
+  
+  .Toastify__toast--error {
+    background-color: #e53935; /* Error toast background color */
+    color: #fff;
+  }
+  
